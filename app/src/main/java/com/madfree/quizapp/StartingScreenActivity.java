@@ -49,6 +49,9 @@ public class StartingScreenActivity extends AppCompatActivity {
                 startQuiz();
             }
         });
+
+        //ToDo: this would be the implementation start for adding question functionality
+        //QuizDbHelper.getInstance(this).addQuestion();
     }
 
     private void startQuiz() {
